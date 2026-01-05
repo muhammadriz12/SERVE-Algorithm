@@ -23,8 +23,8 @@ The following results were captured using **Google Benchmark** (Clang 17, -O3, -
 | **100,000 Elements** | **3.2x Faster** | +220% |
 | **1,000,000 Elements** | **~1.15x Faster** | Consistent Lead |
 
-![100k Benchmark Result](benchmark_100k.png)
-![1M Benchmark Result](benchmark_1m.png)
+![100k Benchmark Result](100k Benchmark Result.png)
+![1M Benchmark Result](1M Benchmark Result.png)
 
 ## 🛠 Why it's Faster
 Traditional search structures like `std::set` rely on **Pointer Chasing**. The CPU has to jump to random RAM locations for every node, causing "Cache Misses." 
